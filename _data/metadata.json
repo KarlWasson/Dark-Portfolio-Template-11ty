@@ -1,15 +1,15 @@
 {
-  "title": "John Doe",
-  "url": "https://myurl.com/",
-  "description": "Photographer and Web Designer",
+  "title": "Karl Wasson",
+  "url": "https://karlwasson.com/",
+  "description": "Website Performance, Technical SEO & Content Creation",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I create  websites and content that performs, so you don't have to.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://karlwasson.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Karl Wasson",
+    "email": "karl.wasson@gmail.com"
   }
 }
