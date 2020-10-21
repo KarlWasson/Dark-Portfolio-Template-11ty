@@ -19,9 +19,9 @@ eleventyNavigation:
     <h2 class="w3-text-light-grey">My Expertise</h2>
     <hr style="width:200px" class="w3-opacity">
     <!-- About Section Content-->
-    <p class="w3-large">I remember a time before <em>users</em>, when websites had <em>visitors</em>. To turn your visitors into loyal customers, I create hospitable websites built for speed and readability.</p>
+    <p class="w3-large">I remember a time before we called our customers <em>users</em>, a time when when we welcomed <em>guests</em>. To turn your guests into loyal customers, I create hospitable websites built for speed and readability.</p>
     <p class="w3-large"> How? I follow the best practices set by Google, A11y, Pingdom, SEMrush, and a bunch of other great organizations.</p>
-    <p class="w3-large">Why?  A focus on fundamentals provides an easy and pleasant experience for you and your website’s visitors.</p>
+    <p class="w3-large">Why?  A focus on fundamentals provides an easy and pleasant experience for you and your website’s guests.</p>
     <p class="w3-large">To ensure that you receive the best service, I limit my work to a handful of carefully selected clients. I also partner with the best designers and SEO experts I can find.</p>
     <a href="/#contact" class="w3-text-pink">
       <p class="w3-large w3-padding-16">Get in touch to find out if we have availability. </p>
@@ -81,10 +81,6 @@ eleventyNavigation:
       </div>
     </div> -->
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-large w3-section" onclick="window.open('{{ 'files/Karl Wasson Website Development Service Invoice.pdf' | url}}')">
-      <i class="fa fa-download"></i> Download My Price Sheet
-    </button>
-
     <!-- Grid for pricing tables -->
     <h3 class="w3-padding-16 w3-text-light-grey">My Price: Website Development</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
@@ -102,7 +98,9 @@ eleventyNavigation:
             <span class="w3-opacity">per page</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-large w3-hover-black">Contact Me</button>
+            <button class="w3-button w3-white w3-padding-large w3-large w3-hover-black">
+              <a href="/#contact" class="w3-text-pink"><p>Contact Me</p></a>
+            </button>
           </li>
         </ul>
       </div>
@@ -121,13 +119,19 @@ eleventyNavigation:
             <span class="w3-opacity">per website</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-large w3-padding-large w3-hover-black">Contact Me</button>
+            <button class="w3-button w3-white w3-padding-large w3-large w3-hover-black">
+              <a href="/#contact" class="w3-text-pink">
+                <p>Contact Me</p>
+              </a>
+            </button>
           </li>
         </ul>
       </div>
     <!-- End Grid/Pricing tables -->
     </div>
-
+  <button class="w3-button w3-light-grey w3-padding-large w3-large w3-section" onclick="window.open('{{ 'files/Karl Wasson Website Development Service Invoice.pdf' | url}}')">
+    <i class="fa fa-download"></i> Download My Price Sheet
+  </button>
     <!-- Testimonials -->
     <!--   <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
     <img src="{{ '/img/w3images/bandmember.jpg' | url}}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
