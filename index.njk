@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
  <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> {{ metadata.title }}.</h1>
-  <p>Purveyor of Well-Crafted Websites and Content Since 2012.</p>
+  <p>—Purveyor of Well-Crafted Websites Since 2012—</p>
 <!--   add image -->
 <!--   <img src="{{ 'img/w3images/karl-wasson-img-bw-blk-bg.jpg' | url }}" alt="boy" class="w3-image" width="1108" height="1108"> -->
 </header>
@@ -18,26 +18,50 @@ eleventyNavigation:
   <div class="w3-content w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">My Expertise</h2>
     <hr style="width:200px" class="w3-opacity">
+    <!-- About Section Content-->
+    <p class="w3-large">I remember a time before <em>users</em>, when websites had <em>visitors</em>. So, I create hospitable websites built for speed and readability.</p>
+    <p class="w3-large"> How? I follow the best practices set by Google, A11y, Pingdom, SEMrush, and a bunch of other great organizations.</p>
+    <p class="w3-large">Why?  A focus on fundamentals provides an easy and pleasant experience for you and your website’s visitors.</p>
+    <p class="w3-large">To ensure that you receive the best service, I limit my work to a handful of carefully selected clients. I also partner with the best designers and SEO experts I can find.</p>
+    <a href="/#contact" class="w3-text-pink">
+      <p class="w3-large w3-padding-16">Get in touch to find out if we have availability. </p>
+    </a>
+    <!-- My Services Content-->
+    <h2 class="w3-text-light-grey">My Services</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-    <p>Is your website slow? Does your content and SEO perform well? Are tired of dealing with tech?</p>
-    <p>You're not alone. Most websites are slow. Technical SEO is hard.</p>
-    <p>I can optimize both. I work with only a handfull of carefully selected clients.</p>
-    <p> Why? This gaurantees that I can provide the best services for my clients. You can get the experience of a large company, for the price of a single developer.</p>
+    <p class="w3-large">We build durable, quality websites for individuals and small to medium businesses.</p>
+    <p class="w3-wide w3-large w3-text-light-grey">Who benefits from our services?</p>
 
-    <h3 class="w3-padding-16 w3-text-light-grey">My Services</h3>
-    <p class="w3-wide">Website Development</p>
-    <!-- <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-     </div> -->
-    <p class="w3-wide">Content Managment</p>
-    <!-- <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-     </div> -->
-    <p class="w3-wide">Technical SEO</p>
-      <!-- <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-       </div> -->
+    <ul class="w3-large">
+      <li class="w3-padding-small">You want a fast website.</li>
+      <li class="w3-padding-small">You want high quality content.</li>
+      <li class="w3-padding-small">You want best SEO practices.</li>
+    </ul>
+      <!--Web Development Content-->
+    <p class="w3-wide w3-large w3-text-light-grey">Website Development</p>
+      <p class="w3-padding-small w3-large">A well-designed website is a must. So, we pay close attention to detail, from user accessibility to page speed using a tool called Lighthouse by Google.</p>
+      <p class="w3-padding-small w3-large">We assess our sites using Google Lighthouse for three reasons.</p>
+      <ol class="w3-large">
+        <li class="w3-padding-small">High Lighthouse scores make Google happy.</li>
+        <li class="w3-padding-small">Lighthouse Audits make websites more usable for your clients.</li>
+        <li class="w3-padding-small">If Google and your clients are happy, you will benefit.</li>
+      </ol>
 
+    <!--Content Managment Content-->
+    <p class="w3-wide w3-large w3-text-light-grey">Content Managment</p>
+    <p class="w3-padding-small w3-large">We’re fussy about high-quality content. According to Google, it’s our responsibility as content creators to</p>
+    <div class="w3-panel">
+      <p class="w3-large w3-text-pink">
+        <i>"Provide high-quality content on your pages, especially your homepage. This is the single most important thing to do."</i></p>
+        <p><a href="https://support.google.com/webmasters/answer/40349?hl=en" class="w3-text-pink">
+        <p class="w3-large w3-padding-16">Source: Google Webmaster Guidlines</p>
+      </a></p>
+    </div>
+    <p class="w3-padding-small w3-large">We take this advice seriously and only put the most relevant information for your clients on your website.</p>
+
+
+  <!--NOT CURRENTLY USED Stats Block-->
   <!--  <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">11+</span><br>
@@ -57,7 +81,7 @@ eleventyNavigation:
       </div>
     </div> -->
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.open('{{ 'files/resume.pdf' | url}}')">
+    <button class="w3-button w3-light-grey w3-padding-large w3-large w3-section" onclick="window.open('{{ 'files/Karl Wasson Website Development Service Invoice.pdf' | url}}')">
       <i class="fa fa-download"></i> Download My Price Sheet
     </button>
 
@@ -65,36 +89,39 @@ eleventyNavigation:
     <h3 class="w3-padding-16 w3-text-light-grey">My Price: Website Development</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-white w3-center">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Consultation</li>
-          <li class="w3-padding-16">Wordpress Starter Theme</li>
-          <li class="w3-padding-16">1 Page of Content</li>
-          <li class="w3-padding-16">Website Launch</li>
-          <li class="w3-padding-16">1-Hour Training Session</li>
-          <li class="w3-padding-16">
+          <li class="w3-padding-16 w3-large">Consultation</li>
+          <li class="w3-padding-16 w3-large">Wordpress Starter Theme</li>
+          <li class="w3-padding-16 w3-large">1 Page of Content</li>
+          <li class="w3-padding-16 w3-large">Website Launch</li>
+          <li class="w3-padding-16 w3-large">1-Hour Training Session</li>
+          <li class="w3-padding-16 w3-large">90 Days Support</li>
+          <li class="w3-padding-16 w3-large">
             <h2>$ 350</h2>
             <span class="w3-opacity">per page</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Contact Me</button>
+            <button class="w3-button w3-white w3-padding-large w3-large w3-hover-black">Contact Me</button>
           </li>
         </ul>
       </div>
 
       <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+        <ul class="w3-ul w3-white w3-center">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Consultation</li>
-          <li class="w3-padding-16">Wordpress Theme</li>
-          <li class="w3-padding-16">5 Pages of Content</li>
-          <li class="w3-padding-16">6 months Support</li>
-          <li class="w3-padding-16">
+          <li class="w3-padding-16 w3-large">Consultation</li>
+          <li class="w3-padding-16 w3-large">Wordpress Theme</li>
+          <li class="w3-padding-16 w3-large">5 Pages of Content</li>
+          <li class="w3-padding-16 w3-large">Website Launch</li>
+          <li class="w3-padding-16 w3-large">1-Hour Training Session</li>
+          <li class="w3-padding-16 w3-large">90 Days Support</li>
+          <li class="w3-padding-16 w3-large">
             <h2>$ 1,500</h2>
             <span class="w3-opacity">per website</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Contact Me</button>
+            <button class="w3-button w3-white w3-large w3-padding-large w3-hover-black">Contact Me</button>
           </li>
         </ul>
       </div>
@@ -115,10 +142,10 @@ eleventyNavigation:
 
 
 <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
+<!--  <div class="w3-padding-64 w3-content" id="photos">
     <h2 class="w3-text-light-grey">My Work</h2>
     <hr style="width:200px" class="w3-opacity">
-
+ -->
     <!-- Grid for photos -->
 <!--    <div class="w3-row-padding" style="margin:0 -16px">
 
@@ -161,6 +188,7 @@ eleventyNavigation:
   {% endraw %}
 
 </style>
+<!--
 <div class="row">
   <div class="column">
    {% for post in collections.photo | head(-8) %}
@@ -173,14 +201,14 @@ eleventyNavigation:
   {% endfor %}
   </div>
   </div>
-
+-->
 
 
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
   </div>
- <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+<!--  <div class="w3-content w3-justify w3-text-grey w3-large w3-padding-64">
 <h1>Latest 3 Posts</h1>
 
 {% set postslist = collections.posts | head(-3) %}
@@ -188,7 +216,7 @@ eleventyNavigation:
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
-</div>
+</div>-->
 <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
@@ -202,10 +230,10 @@ eleventyNavigation:
     <p>Lets get in touch. Send me a message:</p>
 
     <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p><label for="name"> Name:</label><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" id="name"></p>
+      <p><label for="email"> Email:</label><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" id="email"></p>
+      <p><label for="subject"> Subject:</label><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" id="subject"></p>
+      <p><label for="message"> Message:</label><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" id="message"></p>
       <p>
         <button class="w3-button w3-light-grey w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
