@@ -1,14 +1,13 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: My Services
 permalink: false
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About
+  key: Services
   order: 2
   url: /#about
 ---
 
 
 We've overriden the url for use in the main page and set "permalink: false" so this does not get included in the site build.
-
