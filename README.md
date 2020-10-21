@@ -71,4 +71,4 @@ DEBUG=* npx eleventy
   * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
 * `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
 
-* The latest 6 blog posts with the "photo" tag wil be used in the photo gallery.
+* The latest 6 blog posts with the "photo" tag will be used in the photo gallery.
